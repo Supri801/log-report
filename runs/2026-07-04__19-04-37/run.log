@@ -1,0 +1,28 @@
+Failed to load task task.toml: [Errno 2] No such file or directory: 'log-report\\task.toml\\task.yaml'. Using fallback duration.
+Failed to load task .pytest_cache: [Errno 2] No such file or directory: 'log-report\\.pytest_cache\\task.yaml'. Using fallback duration.
+Failed to load task instruction.md: [Errno 2] No such file or directory: 'log-report\\instruction.md\\task.yaml'. Using fallback duration.
+Failed to load task solution: [Errno 2] No such file or directory: 'log-report\\solution\\task.yaml'. Using fallback duration.
+Failed to load task tests: [Errno 2] No such file or directory: 'log-report\\tests\\task.yaml'. Using fallback duration.
+Failed to load task ctrf.json: [Errno 2] No such file or directory: 'log-report\\ctrf.json\\task.yaml'. Using fallback duration.
+Failed to load task environment: [Errno 2] No such file or directory: 'log-report\\environment\\task.yaml'. Using fallback duration.
+Processing tasks in duration order (longest first):
++-----+----------------+------------+----------+
+|   # | Task Name      | Duration   | Source   |
++=====+================+============+==========+
+|   1 | task.toml      | 3m 30s     | fallback |
++-----+----------------+------------+----------+
+|   2 | .pytest_cache  | 3m 30s     | fallback |
++-----+----------------+------------+----------+
+|   3 | instruction.md | 3m 30s     | fallback |
++-----+----------------+------------+----------+
+|   4 | solution       | 3m 30s     | fallback |
++-----+----------------+------------+----------+
+|   5 | tests          | 3m 30s     | fallback |
++-----+----------------+------------+----------+
+|   6 | ctrf.json      | 3m 30s     | fallback |
++-----+----------------+------------+----------+
+|   7 | environment    | 3m 30s     | fallback |
++-----+----------------+------------+----------+
+Total tasks: 7
+Starting harness run
+Run ID: 2026-07-04__19-04-37
